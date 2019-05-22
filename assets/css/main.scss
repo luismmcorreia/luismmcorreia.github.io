@@ -1,0 +1,17 @@
+---
+---
+
+@import 'colors';
+@import 'mixins';
+
+.btn-primary {
+    @include button(red, $colorDark);
+}
+
+body {
+    font-family: sans-serif;
+    h1 {
+        color: red;
+        background: rgba($colorDark, .5);
+    }
+}
